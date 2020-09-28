@@ -192,3 +192,7 @@ h3,.menu-item-discription p{
 		margin-right: auto;
 	}
 }
+#lunch{
+	background: url(../lunch.jpg); 
+	background-position: center;
+}
