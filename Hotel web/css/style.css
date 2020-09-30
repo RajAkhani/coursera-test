@@ -75,11 +75,11 @@ body{
 	box-shadow: 5px 5px 5px 5px #307D7E;
 }
 #menu-title{
-	background: url('../Menu.jpg');
+	background: url('../menu.jpg');
 	background-position: center;
 }
 #special-title{
-	background: url('../Special.jpg');
+	background: url('../special.jpg');
 	background-position: center;
 }
 #home-titles a:hover{
@@ -192,7 +192,10 @@ h3,.menu-item-discription p{
 		margin-right: auto;
 	}
 }
+<<<<<<< HEAD
 #lunch{
 	background: url(../lunch.jpg); 
 	background-position: center;
 }
+=======
+>>>>>>> 3026de6a101e3fb3cd3ea9b51d59d10c1663e55e
