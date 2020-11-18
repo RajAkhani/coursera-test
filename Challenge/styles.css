@@ -1,0 +1,39 @@
+.header {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+.lunch {
+    margin-top: 50px;
+    display: inline-block;
+  
+  }
+  
+body {
+    background-color: #000;
+  }
+  
+h1 {
+    margin: 30px;
+    font-size: 7rem;
+    color: blanchedalmond;
+    font-family: 'Great Vibes', cursive;
+  }
+  
+img {
+    width: 40%;
+  }
+  
+p {
+    margin-top: 120px;
+    font-size: 50px;
+    color: aqua;
+    font-family: 'Great Vibes', cursive;
+    float: left;
+    border-top: 4px solid blanchedalmond;
+    border-bottom: 4px solid blanchedalmond;;
+    padding: 15px 20px 5px 20px;
+    border-radius: 10px;
+  }
+  
