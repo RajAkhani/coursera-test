@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registeration Form</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="pgcss.css"></link>
+<script src="https://kit.fontawesome.com/bd43fb9023.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="hd">
+    <div class="header">
+        <a href="#default" class="logo" ><img src="logo.png" width="200" ></a>
+        <div class="header-right">
+          <a href="pg.html">Home</a>
+          <a href="pg.html#About">About</a>
+          <a href="#ReachUs">Reach Us</a>
+          <a  class="active" href="register.html">Register</a>
+        </div>
+    </div>
+  </header>
+  
+  <div style="text-align: center; color: #4CAF50; font-size: 60px; font-weight: 500;">Register</div>
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="email">Email Id</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your Email Id..">
+      <label for="cno">Contact Number</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your Contact Number..">
+      <label for="city">City</label>
+      <select id="city" name="city">
+        <option value="amd">Ahemdabad</option>
+        <option value="brd">Baroda</option>
+        <option value="srt">Surat</option>
+      </select>
+
+      <label for="subject">What You Expect For Your PG</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <section class="column ftr" id="ReachUs" style="background-color: rgb(94, 187, 160);">
+       <div style="padding-top: 30px; padding-bottom: 30px;">
+        <p style="text-align: center;"><i class="fas fa-map-marker-alt" style="padding-right: 20px;"></i>Registered Office: 56, Ratamlal Park, Waghodiya Road, Vadodara</p>
+        <p style="text-align: center";><i class="fas fa-phone" style="padding-right: 20px;"></i>+91-93286431**(M)</p>
+        <p style="text-align: center";><i class="fab fa-whatsapp" style="padding-right: 20px;"></i>WhatsApp Us</p>
+        <p style="text-align: center;"><i class="fas fa-envelope-open-text" style="padding-right: 20px;"></i>19bce009@nirmauni.ac.in</p>
+        
+       </div>
+    </section>
+</body>
+</html>
